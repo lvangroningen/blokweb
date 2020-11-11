@@ -63,8 +63,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Breakdownschets (week 1)
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
+<p> Breakdown schets home pagina van Nike </p>
+<img src="images/Breakdownschets_homepagina.png" width="375px" alt="Breakdown schets home pagina van Nike">
 
-
+<p> Breakdown schets detail pagina van Nike </p>
+<img src="images/breakdownschets_detailpagina.png" width="375px" alt="Breakdown schets detail pagina van Nike">
 
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-

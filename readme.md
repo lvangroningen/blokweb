@@ -58,7 +58,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -na afloop snel uitkomsten vastleggen-
 
-
+## Typografie codepen (week1)
+<img src="images/codepen-week1.png" width="375px" alt="Typografie oefeningen week 1">
 
 ## Breakdownschets (week 1)
 

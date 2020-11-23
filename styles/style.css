@@ -6,20 +6,36 @@
 
 /* Bron navigatie: https://stackoverflow.com/questions/15710701/horizontal-list-items  */
 
+header {
+  background-color: white;
+}
+
 ul#Navigatie {
   background: none;
   margin: 0;
   padding: 0;
   height: 10%;
   width: auto;
+  display: flex;
 }
+
+ul#Navigatie img {
+  width: 5vh;
+  align-items: center;
+  align-content: center;
+  margin-top: 1em;
+}
+
 ul#Navigatie li {
   display: inline;
   list-style: none;
   margin-left: auto;
   margin-right: auto;
   top: 0px;
+  align-items: center;
+  padding: 1em;
 }
+
 ul#Navigatie li a {
   text-decoration: none;
   font-weight: bolder;
@@ -29,9 +45,8 @@ ul#Navigatie li a {
   display: block;
   text-align: center;
   line-height: 50px;
+  color: black;
 }
-
-
 
 #Uitgelicht {
   position: relative;
@@ -43,7 +58,6 @@ ul#Navigatie li a {
   color: white;
   bottom: 3.5em;
   left: 1em;
-  background-color:rgba(0,0,0,.1);
   margin: 0;
   border-radius: 1em;
 }
@@ -78,6 +92,7 @@ ul#Navigatie li a {
 
 #Gearup {
   position: relative;
+  display: flex;
 }
 
 #Gearup img {
@@ -87,6 +102,17 @@ ul#Navigatie li a {
 
 #Gearup a {
   position: absolute;
-  top: 0.2em;
+  top: 0em;
   right: 1em;
+}
+
+#Gearup h2 {
+  position: absolute;
+  top: -1em;
+}
+
+#schoenen {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em;
 }

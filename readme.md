@@ -38,13 +38,28 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed
-Opdrachten maken en de uitleg gaat goed. Maar het toepassen van de code gaat wat moeizamer. Het neemt echt veel tijd in beslag om de code werkend te krijgen.
-Daarnaast vind ik het lastig om flexbox en javascript juist toe te passen.
+Dit ging goed:
+Opdrachten maken en de uitleg gaat goed. Maar het toepassen van de code gaat wat moeizamer.
+
+Dit gaat lastig:
+Het neemt echt veel tijd in beslag om de code werkend te krijgen. Ik heb in de afgelopen drie weken veel tijd besteed aan front end. Maar als ik het resultaat zie, vind ik dat nog niet terug zien. Daarnaast vind ik het lastig om flexbox en javascript juist toe te passen.
 
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="images/Voortgang1.png" width="375px" alt="Voortgang week 3">
+<img src="images/Voortgang2.png" width="375px" alt="Voortgang week 3">
+
+Bovenstaande afbeeldingen zijn de homescreen nike.com.
+De header heb ik met flexbox en ul  vormgegeven met behulp van codepen oefeningen.
+
+Titel en buttons in de header foto heb ik gepositioneerd met behulp van position absolute en relative.
+
+De onderstaande foto's van schoenen heb ik gepositioneerd met flexbox. Daarover ben ik nog niet tevreden omdat er nu een scrollbar zichtbaar is.
+
+Daaronder staan nog 2 (moeten er 3 zijn) ik krijg het nog niet voor elkaar omdat goed te positioneren met flexbox. Er moet in de lengte 1 afbeelding. Met aan de rechter kant twee afbeeldingen onder elkaar. Daarvoor moet ik nog Guus benaderen voor een tip.
+
+Daarnaast  ben ik er nog niet aan toegekomen om met de volgende pagina aan de slag te gaan. Omdat ik nog achterloop met de home pagina.
 
 ### Agenda voor meeting
 

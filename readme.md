@@ -38,7 +38,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-dit ging goed
+Opdrachten maken en de uitleg gaat goed. Maar het toepassen van de code gaat wat moeizamer. Het neemt echt veel tijd in beslag om de code werkend te krijgen.
+Daarnaast vind ik het lastig om flexbox en javascript juist toe te passen.
 
 **Screenshot(s):**
 

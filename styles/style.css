@@ -96,8 +96,9 @@ ul#Navigatie li a {
 }
 
 #Gearup img {
-  width: 40%;
-  height: 40%;
+  width: 40vw;
+  height: 40vw;
+
 }
 
 #Gearup a {
@@ -113,6 +114,46 @@ ul#Navigatie li a {
 
 #schoenen {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: flex-start;
+  overflow: auto;
+}
+
+#schoen1, #schoen2, #schoen3, #schoen4 {
   padding: 1em;
+  margin-left: -1em;
+  margin-top: 2em;
+}
+
+#shopdecollectie {
+  position: relative;
+  display: flex;
+}
+
+#shopdecollectie img {
+  width: 30vh;
+  height: 45vh;
+  margin-left: -2.5em;
+}
+
+#shopdecollectie a {
+  position: absolute;
+  bottom: 1em;
+  margin: 0;
+  left: .5em;
+  padding: 1em;
+  color: black;
+  background-color: white;
+  border-radius: 3em;
+  font-weight: bolder;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+#alleschoenen, #allekleding img {
+height: 10vh;
+}
+
+#alleschoenen, #allekleding {
+justify-content: flex-end;
+flex-direction: column;
 }

@@ -5,9 +5,12 @@
 }
 
 /* Bron navigatie: https://stackoverflow.com/questions/15710701/horizontal-list-items  */
-
 header {
   background-color: white;
+}
+
+body {
+  margin-left: auto;
 }
 
 ul#Navigatie {
@@ -95,10 +98,13 @@ ul#Navigatie li a {
   display: flex;
 }
 
+#Gearup section {
+  padding: 1em 1em 1em 0em;
+}
+
 #Gearup img {
   width: 40vw;
   height: 40vw;
-
 }
 
 #Gearup a {
@@ -112,34 +118,67 @@ ul#Navigatie li a {
   top: -1em;
 }
 
+#Trending {
+  position: relative;
+  display: flex;
+}
+
+#Trending section {
+  padding: 1em 1em 1em 0em;
+}
+
+#Trending img {
+  width: 40vw;
+  height: 40vw;
+}
+
+#Trending a {
+  position: absolute;
+  top: 0em;
+  right: 1em;
+}
+
+#Trending h2 {
+  position: absolute;
+  top: -1em;
+}
+
+#Trending p:first-of-type {
+  color: #FA5302;
+  font-weight: bold;
+}
+
 #schoenen {
   display: flex;
   justify-content: flex-start;
-  overflow: auto;
+  overflow: auto
 }
 
-#schoen1, #schoen2, #schoen3, #schoen4 {
+#schoenen::-webkit-scrollbar {
+  ​​​​​​​​display: none;
   padding: 1em;
   margin-left: -1em;
   margin-top: 2em;
 }
 
-#shopdecollectie {
-  position: relative;
+#shopdecollectie figure {
   display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+  padding: 1em;
 }
 
 #shopdecollectie img {
-  width: 30vh;
-  height: 45vh;
-  margin-left: -2.5em;
+  width: 70vw;
+  height: 25vw;
 }
 
 #shopdecollectie a {
   position: absolute;
   bottom: 1em;
-  margin: 0;
-  left: .5em;
+  margin: 1em;
+  left: 0.8em;
   padding: 1em;
   color: black;
   background-color: white;
@@ -149,11 +188,12 @@ ul#Navigatie li a {
   text-decoration: none;
 }
 
-#alleschoenen, #allekleding img {
-height: 10vh;
+footer {
+  background-color: black;
 }
 
-#alleschoenen, #allekleding {
-justify-content: flex-end;
-flex-direction: column;
+footer ul {
+  color: white;
+  text-decoration: none;
+  line-height: 2em;
 }

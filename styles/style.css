@@ -13,43 +13,70 @@ body {
   margin-left: auto;
 }
 
-ul#Navigatie {
-  background: none;
-  margin: 0;
-  padding: 0;
-  height: 10%;
-  width: auto;
-  display: flex;
+
+/*bron: https://codepen.io/bennettfeely/pen/MxOrLO */
+:root {
+  --underline-height: .5em;
+  --transition-duration: .5s;
 }
 
-ul#Navigatie img {
+body {
+  font-family: system-ui, sans-serif;
+  background: whitesmoke;
+  min-height: 100vh;
+}
+
+nav {
+  position: relative;
+  white-space: nowrap;
+  background: white;
+  padding: var(--underline-height) 0;
+  margin: 2em 0;
+  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.05);
+}
+
+nav img {
   width: 5vh;
   align-items: center;
   align-content: center;
   margin-top: 1em;
 }
 
-ul#Navigatie li {
-  display: inline;
-  list-style: none;
-  margin-left: auto;
-  margin-right: auto;
-  top: 0px;
-  align-items: center;
-  padding: 1em;
+.underline {
+  display: block;
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+  height: var(--underline-height);
+  width: 20%;
+  background: black;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  -webkit-transition: -webkit-transform var(--transition-duration) ease-in-out;
+  transition: -webkit-transform var(--transition-duration) ease-in-out;
+  transition: transform var(--transition-duration) ease-in-out;
+  transition: transform var(--transition-duration) ease-in-out, -webkit-transform var(--transition-duration) ease-in-out;
 }
 
-ul#Navigatie li a {
-  text-decoration: none;
-  font-weight: bolder;
-  color: #000;
-  height: 50px;
-  width: auto;
-  display: block;
+a {
+  display: inline-block;
+  z-index: 10;
+  width: 20%;
+  padding: 1em 0;
   text-align: center;
-  line-height: 50px;
-  color: black;
+  cursor: pointer;
+  font-weight: bolder;
 }
+
+nav.black .underline {
+  background: #222;
+  border-radius: .25em;
+  height: calc(var(--underline-height) / 2);
+  mix-blend-mode: initial;
+}
+
+
 
 #Uitgelicht {
   position: relative;

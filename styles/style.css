@@ -13,18 +13,126 @@ body {
   margin-left: auto;
 }
 
+/* Search bar
+bron: https://codepen.io/bennettfeely/pen/MxOrLO en https://codepen.io/takaneichinose/pen/ErGwPZ */
+.search-box {
+  border: solid 5px black;
+  display: inline-block;
+  position: relative;
+  border-radius: 50px;
+}
 
-/*bron: https://codepen.io/bennettfeely/pen/MxOrLO */
+.search-box input[type="text"] {
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  width: 5px;
+  height: 50px;
+  padding: 5px 40px 5px 10px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 50px;
+  transition: width 800ms cubic-bezier(0.5, -0.5, 0.5, 0.5) 600ms;
+}
+
+.search-box input[type="text"]:focus {
+  outline: none;
+}
+
+.search-box input[type="text"]:focus, .search-box input[type="text"]:not(:placeholder-shown) {
+  width: 300px;
+  transition: width 800ms cubic-bezier(0.5, -0.5, 0.5, 1.5);
+}
+
+.search-box input[type="text"]:focus+span, .search-box input[type="text"]:not(:placeholder-shown)+span {
+  bottom: 13px;
+  right: 10px;
+  transition: bottom 300ms ease-out 800ms, right 300ms ease-out 800ms;
+}
+
+.search-box input[type="text"]:focus+span:after, .search-box input[type="text"]:not(:placeholder-shown)+span:after {
+  top: 0;
+  right: 10px;
+  opacity: 1;
+  transition: top 300ms ease-out 1100ms, right 300ms ease-out 1100ms, opacity 300ms ease 1100ms;
+}
+
+.search-box span {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -13px;
+  right: -15px;
+  transition: bottom 300ms ease-out 300ms, right 300ms ease-out 300ms;
+}
+
+.search-box span:before, .search-box span:after {
+  content: '';
+  height: 25px;
+  border-left: solid 5px black;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+
+.search-box span:after {
+  transform: rotate(45deg);
+  opacity: 0;
+  top: -20px;
+  right: -10px;
+  transition: top 300ms ease-out, right 300ms ease-out, opacity 300ms ease-out;
+}
+
+
+
+ul#Navigatie {
+  background: none;
+  margin: 0;
+  padding: 0;
+  height: 10%;
+  width: auto;
+  display: flex;
+}
+
+ul#Navigatie img {
+  width: 5vh;
+  align-items: center;
+  align-content: center;
+  margin-top: 1em;
+}
+
+ul#Navigatie li {
+  display: inline;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  align-items: center;
+  padding: 1em;
+}
+
+ul#Navigatie li a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #000;
+  height: 50px;
+  width: auto;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+}
+
+
+
+/* menu balk + het lijntje bron: https://codepen.io/bennettfeely/pen/MxOrLO */
 :root {
   --underline-height: .5em;
   --transition-duration: .5s;
 }
 
-body {
-  font-family: system-ui, sans-serif;
-  background: whitesmoke;
-  min-height: 100vh;
-}
 
 nav {
   position: relative;
@@ -76,8 +184,6 @@ nav.black .underline {
   mix-blend-mode: initial;
 }
 
-
-
 #Uitgelicht {
   position: relative;
 }
@@ -108,11 +214,21 @@ nav.black .underline {
 #Uitgelicht a:first-of-type {
   position: absolute;
   left: 1em;
+
 }
+
+#Uitgelicht a:hover {
+  box-shadow: 0px 5px 25px -5px #FF2803;
+  background-color: #FF2803;
+  color: white;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
 
 #Uitgelicht a:last-of-type {
   position: absolute;
-  left: 6em;
+  left: 10em;
 }
 
 #Uitgelicht img {

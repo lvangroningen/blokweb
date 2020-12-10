@@ -30,8 +30,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Dit gaat lastig:
+Ik vind het lastig om te beginnen aan de detail pagina. Omdat ik eerst alles netjes en goed werkend wil hebben op de home pagina. Zodat ik die elementen kan overnemen op de detail pagina.
 
+<img src="images/Voortgang3.png" width="375px" alt="Voortgang week 5">
+<img src="images/Voortgang4.png" width="375px" alt="Voortgang week 5">
+
+Het is niet op de afbeeldingen te zien. Maar deze week heb ik geprobeerd om mijn menu balk af te krijgen. Door iconen naast elkaar te plaatsen met behulp van flexbox. En er een effect aan toe te voegen met javascript. Daarnaast heb ik mijn buttons vormgegeven met CSS.
+
+### Verslag van meeting
 
 
 ## Voortgang 1 (week 3)
@@ -73,7 +80,13 @@ Daarnaast  ben ik er nog niet aan toegekomen om met de volgende pagina aan de sl
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+**Feedback uit**
+
+- type selector gebruiken ipv class. Lastchild/ first type. (Vooral bij schoen 1, schoen2)
+- wees consistent in gebruik van units (em, vm, px)
+- maak meer gebruik van cascade overevering (niet dupliceren)
+- werk tegelijk aan je detailpagina
+- stel javascript niet uit! ⚠️
 
 ## Typografie codepen (week1)
 <img src="images/codepen-week1.png" width="375px" alt="Typografie oefeningen week 1">

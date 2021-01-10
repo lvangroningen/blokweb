@@ -6,9 +6,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. Html & Css, auteur Jon Ducket.
+2. http://www.codecenter.nl/pr/code/html/aflinks
+3. https://stackoverflow.com/questions/15710701/horizontal-list-items
+4. https://stackoverflow.com/questions/4652654/how-to-turn-off-word-wrapping-in-html
+5. https://cssgrid-generator.netlify.app/
+6. https://css-tricks.com/a-complete-guide-to-links-and-buttons
 
 
 
@@ -16,16 +19,46 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
+Ik maak te veel gebruik van sections. Ik kreeg in de voortgangsgesprekken als tip om dit te wijzigen. In  eerdere versies heb ik dit geprobeerd met behulp van **section:nth-of-type (2), section:nth-of-tyoe (3). Hierdoor had ik een veel nettere code. Maar, dit zorgde er ook voor dat er in de scroll sectie de tekst naast de afbeeldingen kwam te staan.
+
+Zie afbeelding:
+<img src="images/Voortgang5.png" width="375px" alt="Voortgang week 5">
+
+Ik heb andere nth mogelijkheden geprobeerd. En ik heb hier zoveel tijd aan verloren, dat ik de keuze heb gemaakt om opnieuw de sections een naam te geven.
+
+Wat ik wel goed  vond gaan, is dat ik het zelf steeds leuker vind om aan de slag te gaan met html en css. Ondanks ik er echt niet goed in ben. Wat ik wel lastig vind om te zoeken. Ik weet in de meeste gevallen niet op welke termen je moet zoeken voor het gewenste resultaat. En dit vervolgens toepassen vind ik ook nog lastig.
+
+
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+-screenshot(s) van je eindresultaat | Homepagina -
+<img src="images/Voortgang6.png" width="375px" alt="Voortgang">
+<img src="images/Voortgang7.png" width="375px" alt="Voortgang">
+<img src="images/Voortgang8.png" width="375px" alt="Voortgang">
+<img src="images/Voortgang9.png" width="375px" alt="Voortgang">
 
-
+-screenshot(s) van je eindresultaat | Homepagina -
+<img src="images/Voortgang10.png" width="375px" alt="Voortgang week 3">
+<img src="images/Voortgang11.png" width="375px" alt="Voortgang week 3">
+<img src="images/Voortgang12.png" width="375px" alt="Voortgang week 3">
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Dit gaat lastig:
 
+Mijn vragen voor deze week:
+
+Vraag 1
+Ik krijg het niet voor elkaar om de elementen van de footer naast elkaar te krijgen.  Ik kreeg mee als tip om dit te doen met een ul en li. En vervolgens opnieuw naar de oefeningen te kijken van display flex en grid.
+
+Vraag 2
+Als ik de a href in de footer wil selecteren en aan wil passen in css. Veranderd dit ook in het menu mee.
+
+Vraag 3
+Op de detail pagina moet ik maten kunnen selecteren. Hoe kan ik dit het beste doen? Labels maken voor de maten of href.  Ik kreeg als tip mee om dit te doen met een form, checkboxes of readiobuttons. Om dit voor elkaar te krijgen heb ik het boek van jon ducket html & css gebruikt. Voor de button toevoegen aan  het winkelmandje en voeg toe aan favorieten kreeg, word aanbevolen om form te gebruiken.
+
+Vraag 4:
+Op de detail pagina van nike kan je de artikelen open- en dichtklappen om meer te lezen. Dit kan gedaan worden met behulp van javscript. Hiervoor moet ik opzoek gaan naar details en summery.
 
 
 ## Voortgang 2 (week 5)
@@ -40,6 +73,9 @@ Het is niet op de afbeeldingen te zien. Maar deze week heb ik geprobeerd om mijn
 
 ### Verslag van meeting
 
+Ik heb 2 css bestanden. Dit is niet nodig. Mocht je een  grotere website bouwen, is het onhandig om voor elke pagina een css bestand te hebben. Deze moet ik dus verwijderen en in het 1e bestand verder aan de slag gaan.
+
+Tevens heb ik te veel id's. Hoe minder id's, hoe mooier je html en css code.
 
 ## Voortgang 1 (week 3)
 
